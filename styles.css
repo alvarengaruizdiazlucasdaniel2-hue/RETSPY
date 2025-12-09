@@ -1,0 +1,101 @@
+/* Variables de color */
+:root {
+    --primary: #4e73df;
+    --success: #1cc88a;
+    --info: #36b9cc;
+    --warning: #f6c23e;
+    --danger: #e74a3b;
+    --dark: #5a5c69;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fc;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/* Tarjetas */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    font-weight: 700;
+}
+
+/* Tarjetas de resumen */
+.border-left-primary {
+    border-left: 0.25rem solid var(--primary);
+}
+
+.border-left-success {
+    border-left: 0.25rem solid var(--success);
+}
+
+.border-left-info {
+    border-left: 0.25rem solid var(--info);
+}
+
+.border-left-warning {
+    border-left: 0.25rem solid var(--warning);
+}
+
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.text-gray-800 {
+    color: var(--dark);
+}
+
+/* Gráficos */
+canvas {
+    max-height: 300px;
+}
+
+/* Botones */
+.btn {
+    border-radius: 0.35rem;
+}
+
+/* Alertas */
+.alert {
+    border-radius: 0.5rem;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #e3e6f0;
+}
+
+/* Loading overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
